@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("img/ds3.jpg");
+    background-size: cover;
+    background-repeat: repeat-y; /* Repetir verticalmente */
+    background-position: center center;
+    height: 100%; /* 100% de la altura de la ventana gráfica */
+  }
+  
+  
+    header{
+      position: relative;
+     }
+     
+     .containern{
+       background:   #8c8c8c00;
+       width: 100%;
+     } 
+    
+     nav {
+      background-color: rgba(255, 255, 255, 0);
+      overflow: hidden;
+      text-align: center;
+      margin: 5px ;
+      padding: 3px;
+    }
+    
+    nav a {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+      margin: 0 10px;
+      font-family: 'Times New Roman', sans-serif;
+    }
+    
+    nav a:hover {
+      background-color: #9b9a9a67;
+      color: rgb(0, 0, 0);
+    }
+
+    #imagenl {
+        width: 200px; /* Puedes ajustar el valor según tus necesidades */
+        height: auto; /* Esto mantendrá la proporción original de la imagen */
+      }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: rgba(140, 140, 140, 0);
+        text-align: center; /* Centra el texto dentro de la sección */
+    }
+    
+    .about-us {
+        text-align: justify;
+        color: #ffffff;
+        margin-top: -50px; /* Ajusta el margen superior según tus preferencias */
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.359); /* Fondo blanco */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 10px; /* Bordes redondeados */
+      }
+      
+      .social-icons a {
+        margin-top: 10px; /* Ajusta el espaciado vertical entre los íconos */
+      }
+
+      .social-icons a:hover,
+      .social-icons a:active {
+      transform: scale(1.2); /* Ajusta el factor de escala según tus preferencias */
+      }
+      
+      .social-icons img {
+        width: 35px; /* Ajusta el tamaño según sea necesario */
+        height: 35px; /* Ajusta el tamaño según sea necesario */
+        border-radius: 50%; /* Hace que los íconos sean circulares */
+      }
+
+      footer{ 
+        color: aliceblue;   
+         text-align: center;
+         position: relative;
+         width: 100%;
+         background-color:rgb(0, 0, 0)
+       }
+    
+
+
+    

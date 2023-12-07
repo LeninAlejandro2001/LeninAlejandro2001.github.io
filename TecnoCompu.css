@@ -1,0 +1,197 @@
+body {
+  background-image: url("img/ft1.jpg");
+  background-size: cover;
+  background-repeat: repeat-y; /* Repetir verticalmente */
+  background-position: center center;
+  height: 100%; /* 100% de la altura de la ventana gráfica */
+}
+
+ header{
+  position: relative;
+ }
+ 
+ .container{
+   background:   #0000001b;
+   width: 100%;
+ } 
+
+ nav {
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  text-align: center;
+  margin: 5px ;
+  padding: 3px;
+}
+
+nav a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  background-color: #9b9a9a67;
+  color: rgb(0, 0, 0);
+}
+ 
+ #imagenl {
+  width: 300px; /* Puedes ajustar el valor según tus necesidades */
+  height: auto; /* Esto mantendrá la proporción original de la imagen */
+}
+
+ .linea {
+   margin-left: 0%;
+   bottom: -5px; 
+   left: 0;
+   width: 46%; 
+   border: none;
+   border-top: 1px solid rgb(255, 255, 255);
+   }
+
+ ul{
+   text-align: center;
+ }
+ 
+ #texto {   
+   color: rgb(175, 173, 173);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 100px;
+   height: 40px;   
+   float: left;
+   
+ }
+
+ #texto2{
+   color: rgb(255, 255, 255);
+   max-width: 45%;
+   text-align: center;
+ }
+ 
+ .imagen { 
+   margin-right: 200px;
+   float: right;
+   transform: scale(var(--escala, 1));
+   transition: transform 0.25s;
+   margin-top: -100px;
+ }
+
+ .imagen:hover{
+   --escala: 1.2;
+   cursor:pointer;
+ }
+ 
+ #textoanimado {
+   margin-left: -15px;
+   text-align: left;
+   max-width: 46%;
+   padding: 20px;
+   font-size: 18px;
+   font-family: Arial, sans-serif;
+   white-space: normal; 
+   margin-top: -30px;
+ }
+
+ .contenedor{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+ }
+
+ .imagenC{
+   width: 250px;
+   height: 250px;
+ }
+
+ #imagenprincipal{
+   width: 300px;
+   height: 300px;
+ }
+
+ .social-icons {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.359); /* Fondo blanco */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.social-icons a {
+  margin-top: 10px; /* Ajusta el espaciado vertical entre los íconos */
+}
+
+.social-icons a:hover,
+.social-icons a:active {
+  transform: scale(1.2); /* Ajusta el factor de escala según tus preferencias */
+}
+
+.social-icons img {
+  width: 35px; /* Ajusta el tamaño según sea necesario */
+  height: 35px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%; /* Hace que los íconos sean circulares */
+}
+
+.tarjetas {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  
+}
+section{
+  top: 400px;
+  position:fixed;
+  left: 100px;
+}
+
+.tarjetas img {
+  width: 200px; 
+  max-height: 300px; 
+  border-radius: 9%; 
+  margin-left: 2px;
+  object-fit: cover; 
+  margin: 0 10px; 
+  background-color:rgba(0, 0, 0, 0.286);
+  box-shadow: 2px 2px 8px rgb(120, 120, 120);
+}
+
+.tarjetas img:hover {
+  transform: scale(1.1); 
+}
+
+
+ footer{ 
+  color: aliceblue;
+   height:15%;     
+   text-align: center;
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+   margin-left: -9px; 
+   background-color:rgba(79, 88, 169, 0) ; 
+ }
+
+ .linea2{
+   margin-left: 0%;
+   bottom: -5px; 
+   left: 0;
+   width: 110%; 
+   border: none;
+   border-top: 1px solid rgb(255, 255, 255);  
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ #imgtabla{
+   width: 100px;;
+ }
+

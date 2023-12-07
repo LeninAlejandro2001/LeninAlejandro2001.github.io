@@ -1,0 +1,159 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/fondop3.png");
+  background-size: cover;
+  background-repeat: repeat-y; /* Repetir verticalmente */
+  background-position: center center;
+  height: 100%; /* 100% de la altura de la ventana gráfica */
+}
+
+
+  header{
+    position: relative;
+   }
+   
+   .container{
+     background:   #8c8c8c00;
+     width: 100%;
+   } 
+  
+   nav {
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    text-align: center;
+    margin: 5px ;
+    padding: 3px;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 10px;
+    font-family: 'Times New Roman', sans-serif;
+  }
+  
+  nav a:hover {
+    background-color: #9b9a9a67;
+    color: rgb(0, 0, 0);
+  }
+
+  .slider {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%; /* Asegúrate de que el ancho total sea igual al número de imágenes porcentuales */
+    border: 1px solid rgba(240, 128, 128, 0); /* Añadí un borde para visualización */
+    animation: cambio 20s infinite linear; /* Cambié alternate a linear para un cambio más suave */
+  }
+  
+  .slider li {
+    width: 25%; /* Cambié el ancho al 25% para que cada imagen ocupe el 100% en total */
+    list-style: none;
+  }
+  
+  .slider img {
+    width: 50%;
+    display: block; /* Añadí display: block para corregir espacios en línea */
+    margin: auto; /* Centra la imagen */
+  }
+  
+  @keyframes cambio {
+    0%, 100% { margin-left: 0; }
+    25%, 75% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.product-card {
+  width: 200px;
+  border: 1px solid rgba(221, 221, 221, 0.347);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.455); /* Agregado para la transición */
+}
+
+a {
+  text-decoration: none; /* Quita el subrayado */
+  color: #000; /* Cambia el color del texto del enlace, si lo deseas */
+}
+
+.product-card:hover {
+  transform: scale(1.1); /* Escala al 110% al pasar el ratón */
+}
+
+.product-card * {
+  color: rgb(225, 224, 224); /* Hace que el texto sea transparente para revelar el degradado de fondo */
+}
+
+.product-card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover; 
+}
+
+.price {
+  color: rgb(145, 145, 145);
+  font-weight: bold;
+}
+
+.product-card button {
+  background-color: #acacac35; /* Color de fondo de WhatsApp */
+  color: #fff; /* Color de texto */
+  padding: 10px 15px; /* Ajusta el espaciado interno según sea necesario */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  font-size: 14px; /* Ajusta el tamaño del texto según sea necesario */
+}
+
+.product-card h3 {
+  font-family: 'Times New Roman', serif; /* Cambia 'Times New Roman' al tipo de letra deseado */
+  margin-top: 10px;
+}
+
+.product-card button:hover {
+  background-color: #555555; /* Cambia el color al pasar el ratón */
+}
+
+
+
+footer{ 
+  color: aliceblue;   
+   text-align: center;
+   position: relative;
+   width: 100%;
+   background-color:rgb(0, 0, 0)
+ }
